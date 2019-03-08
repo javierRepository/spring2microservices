@@ -43,6 +43,7 @@ public class CurrencyConversionController {
         String serviceCall = environment.getProperty("serviceCall");
         completeUrlService.append(hostService).append(serviceCall);
 
+
         HashMap<String, String> uriVariables = new HashMap<>();
         uriVariables.put("from", from);
         uriVariables.put("to", to);
